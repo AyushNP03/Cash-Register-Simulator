@@ -1,0 +1,121 @@
+ /* A.I. Disclaimer: All work for this assignment was completed by myself and entirely without the use of artificial intelligence tools such as ChatGPT, MS Copilot, other LLMs, etc.  */
+ 
+body {
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h3 {
+    display: inline;
+}
+
+.input_section {
+    margin-bottom: 15px;
+}
+
+div {
+    position: relative;
+    width: 400px;
+    border: solid 1px black;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.button-section {
+    display: flex;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin : 5px;
+    margin-left: 18px;
+    margin-right: 18px; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+}
+
+#scan {
+    background-color: #28a745;
+    color: white;
+}
+
+#scan:hover {
+    background-color: green;
+}
+
+#printTotal {
+    background-color: #007bff;
+    color: white;
+}
+
+#printTotal:hover {
+    background-color: blue;
+}
+
+#resetAll {
+    background-color: #dc3545;
+    color: white;
+}
+
+#resetAll:hover {
+    background-color: red;
+}
+
+.items-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 1px 0;
+    padding: 2px;
+}
+
+.total-section {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#totalDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}  
+
